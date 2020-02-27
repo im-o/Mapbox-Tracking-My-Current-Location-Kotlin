@@ -14,6 +14,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "MAPBOX_ACCESS_TOKEN", '"pk.eyJ1IjoiaW0tbyIsImEiOiJjanpuYmVheG0wMmVlM2NwNHVyMTVxNjhvIn0.w4Vawv9HW4T9YyM72tqnwA"')
     }
     buildTypes {
         release {
